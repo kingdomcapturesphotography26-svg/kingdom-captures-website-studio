@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
 :root {
@@ -254,13 +255,37 @@ header h1 { margin: 8px 0; font-size: 30px; }
   color: white;
 }
 
-.site-hero span { color: var(--gold); font-size: 11px; letter-spacing: 2px; }
-.site-hero h2 { font-family: 'Playfair Display', serif; font-size: 30px; }
-.site-hero button { padding: 10px 16px; border: 0; border-radius: 6px; }
+.site-hero span {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.site-hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+.site-hero button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 6px;
+}
 
 .site-content { padding: 25px; }
-.chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.chips span { background: #f0eee9; padding: 7px 10px; border-radius: 20px; font-size: 12px; }
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chips span {
+  background: #f0eee9;
+  padding: 7px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
 
 .notice {
   background: #f7f1e6;
@@ -271,17 +296,38 @@ header h1 { margin: 8px 0; font-size: 30px; }
   font-size: 13px;
 }
 
-footer { color: var(--muted); font-size: 12px; padding: 20px 0; }
+footer {
+  color: var(--muted);
+  font-size: 12px;
+  padding: 20px 0;
+}
 
-.center { min-height: 100vh; display: grid; place-items: center; }
+.center {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
 
-table { width: 100%; border-collapse: collapse; }
-td, th { text-align: left; padding: 12px 8px; border-bottom: 1px solid var(--line); font-size: 13px; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  text-align: left;
+  padding: 12px 8px;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
 
 @media (max-width: 850px) {
   .shell { grid-template-columns: 1fr; }
   .sidebar { padding: 16px; }
-  nav { display: flex; flex-wrap: wrap; margin-top: 12px; }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+  }
   nav button { width: auto; }
   .content { padding: 20px; }
   .editor-grid { grid-template-columns: 1fr; }
@@ -289,7 +335,10 @@ td, th { text-align: left; padding: 12px 8px; border-bottom: 1px solid var(--lin
 
 @media (max-width: 550px) {
   .stats { grid-template-columns: 1fr; }
-  header { align-items: flex-start; flex-direction: column; }
+  header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
   .auth-card { padding: 25px; }
   .business-list article { align-items: flex-start; }
 }
